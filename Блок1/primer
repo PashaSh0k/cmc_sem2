@@ -1,0 +1,13 @@
+include console.inc
+.data
+    N dd ?
+.code
+Start:
+    ConsoleTitle 'Аксенов Павел, 110 группа, Задача_1 (блок_1)'
+    mov CL,-26
+    add CL,190
+    outintln CL
+
+    pause 'Press any key to exit'
+    exit
+end Start
